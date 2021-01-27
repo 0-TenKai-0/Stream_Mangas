@@ -3,16 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>Stream Mangas</title>
     <link rel="stylesheet" type="text/css" media="screen and (min-width:0px)" href="style_computer.css">
     <link rel="icon" type="images/x-icon" href="images/Logo.png" />
 </head>
 
 <body>
-    <from method="post" action = "accueil.php">
+    <form method="post" action = "accueil.php">
         <header>
             <img src="images/Logo.png" alt="" width="90" height="90" />
-            <title>Stream Mangas</title>
-            <h1 class="titre_site" href="accueil.php">STREAM MANGAS</h1>
+            <h1 class="titre_site"><a href="accueil.php">STREAM MANGAS</a></h1>
             <div class="menu">
                 <a href="liste.php">
                     <article class="left">
