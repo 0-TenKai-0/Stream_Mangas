@@ -4,30 +4,23 @@
     src: url('polices/Ubuntu/Ubuntu-Regular.ttf');
 }
 
-/* Body */
-
-body {
-    font-family: Ubuntu;
-    margin: 0;
-}
-
-/* Header */
+/* --------------------------- Header --------------------------- */
 
 header {
     background-color: rgba(0, 0, 0, 0.84);
     padding: 0.2%;
 }
 
-h1.titre_site {
-    text-align: center;
-    margin: auto;
-    padding-top: 30px;
-    font-size: 40px;
+h1.titre_site a:link {
+    text-decoration: none;
+}
+
+h1.titre_site a {
     color: #FFFFFF;
 }
 
-h3{
-    margin: auto;
+div h1.titre_site {
+    text-align: center;
 }
 
 div.menu {
@@ -63,10 +56,61 @@ article {
     border: 20px solid transparent;
 }
 
+/* --------------------------- Body --------------------------- */
+
+body {
+    font-family: Ubuntu;
+    color: #FFFFFF;
+    margin: 0;
+}
+
 .fond {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.85);
     border: 155px solid transparent;
     padding: 20px;
-    border-image: url('images/kaneki.png') 70;
+    border-image: url('images/fond.png') 70;
     border-image-repeat: round;
+}
+
+ul.Manga {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+li.Manga {
+    list-style-type: none;
+    display: flex;
+    border-bottom: 2px solid lightgray;
+}
+
+img.Manga {
+    height: 25vh;
+    padding: 5px;
+    margin-top: 45px;
+    margin-right: 10px;
+    margin-bottom: 45px;
+}
+
+h3.Manga {
+    width: 1000px;
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 180px;
+}
+
+a.titre_anime {
+    color: #FFFFFF;
+}
+
+a.titre_anime:link {
+    text-decoration: none;
+}
+
+a.titre_anime:hover {
+    color: lightgray;
+}
+
+p.manga {
+    margin-top: 150px;
+
 }
